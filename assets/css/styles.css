@@ -1,0 +1,104 @@
+#jumbo{
+	background-color: rgba(0,0,0,0);
+
+}
+#head1{
+	color: #031424;
+	font-size:3em;
+	font-family: knorke;
+
+}
+#head2{
+	color: #031424;
+	font-size: 1.5em;
+}
+
+.navbar{
+	background-color: #DCDCDC;
+}
+
+#navbarElements{
+	padding-bottom: 50px;
+	color: #6699cc;
+}
+
+#navbarElements:hover{
+	color:#003366;
+}
+
+#kbd{
+	background-color: transparent;
+	color: #031424;
+	font-size: 1.5em;
+}
+
+@font-face{
+	font-family: knorke;
+	src: url("Knorke.ttf");
+}
+
+@font-face{
+	font-family: domine;
+	src: url("Domine-Regular.ttf");
+}
+
+@font-face{
+	font-family: newsflash;
+	src: url("newsflash.ttf");
+}
+
+#mainAccordion{
+	padding-bottom: 100px;
+}
+
+#accordion1{
+	font-family: domine;
+	cursor:pointer;
+	background-color: rgba(48,65,93,0);
+	color: #DCDCDC;
+	opacity: 50%;
+	text-shadow: 2px 2px 5px #000000;
+
+
+}
+
+#accordion2{
+	font-family: domine;
+	cursor:pointer;
+	background-color: rgba(0,0,0,0);
+	color: #DCDCDC;
+	text-shadow: 2px 2px 5px #000000;
+
+}
+
+.filling1{
+	font-size: 1.75em;
+}
+
+.filling2{
+	font-size: 1.5em;
+	font-style:italic;
+}
+
+.subject{
+	font-size: 2em;
+	font-weight: bold;
+	font-family: domine;
+}
+
+body{
+	background-image: url("../img/watercolor10.jpg");
+	background-position: right top;
+}
+
+#break{
+	padding:175px;
+}
+
+a{
+	color: #DCDCDC;
+}
+
+a:hover{
+	color:yellow;
+}
