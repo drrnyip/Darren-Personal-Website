@@ -4,13 +4,13 @@
 }
 #head1{
 	color: #031424;
-	font-size:3vw;
+	font-size:3em;
 	font-family: knorke;
 
 }
 #head2{
 	color: #031424;
-	font-size: 5vw;
+	font-size: 2em;
 }
 
 .navbar{
@@ -29,7 +29,7 @@
 #kbd{
 	background-color: transparent;
 	color: #031424;
-	font-size: 2vw;
+	font-size: 2em;
 }
 
 @font-face{
@@ -58,9 +58,7 @@
 	color: #DCDCDC;
 	opacity: 50%;
 	text-shadow: 2px 2px 5px #000000;
-	font-size: 1.5vw;
-
-
+	font-size: 1.5em;
 }
 
 #accordion2{
@@ -69,22 +67,20 @@
 	background-color: rgba(0,0,0,0);
 	color: #DCDCDC;
 	text-shadow: 2px 2px 5px #000000;
-	font-size: 1.5vw;
+	font-size: 1.5em;
 
 
 }
 
 .filling1{
-	font-size: 1.75vw
 }
 
 .filling2{
-	font-size: 1.5vw;
 	font-style:italic;
 }
 
 .subject{
-	font-size: 2vw;
+	font-size: 1.75em;
 	font-weight: bold;
 	font-family: domine;
 }
@@ -107,5 +103,15 @@ a:hover{
 }
 
 #quote{
-	font-size: 1.5vw;
+	font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+	#head1{font-size:1.5em;}
+	#head2{font-size: 1em;}
+	#kbd{font-size: 1.5em;}
+	#accordion1{font-size: 1em;}
+	#accordion2{font-size: 1em;}
+	.subject{font-size: 1.25em;}
+	#quote{font-size: 1em;}
 }
