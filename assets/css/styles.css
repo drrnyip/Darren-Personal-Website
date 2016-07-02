@@ -23,7 +23,7 @@
 #navbarElements{
 	padding-bottom: 63px;
 	color: #2a3797;
-	text-align: center;
+	padding-right: 7px;
 	
 }
 
@@ -121,4 +121,5 @@ a:hover{
 	#accordion2{font-size: 1em;}
 	.subject{font-size: 1.25em;}
 	#quote{font-size: 1em;}
+
 }
