@@ -23,6 +23,8 @@
 #navbarElements{
 	padding-bottom: 63px;
 	color: #2a3797;
+	text-align: center;
+	
 }
 
 #navbarElements:hover{
