@@ -93,6 +93,7 @@
 body{
 	background-image: url("../img/watercolor11.jpg");
 	background-position: right top;
+	overflow-x:hidden;
 }
 
 #break{
