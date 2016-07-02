@@ -21,12 +21,13 @@
 }
 
 #navbarElements{
-	padding-bottom: 50px;
-	color: #6699cc;
+	padding-bottom: 63px;
+	color: #2a3797;
 }
 
 #navbarElements:hover{
-	color:#003366;
+	color:#ee5f4f;
+	
 }
 
 #kbd{
