@@ -1,9 +1,11 @@
 #jumbo{
 	background-color: rgba(0,0,0,0);
-	background-image: url(../img/sketch16.png);
+	background-image: url(../img/sketch15.png);
 	background-position: right top;
 	border-bottom: 7px ridge #ececec;
-	background-size: cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 #head1{
@@ -93,7 +95,7 @@
 }
 
 body{
-	background-image: url("../img/watercolor13.jpg");
+	background-image: url("../img/watercolor15.jpg");
 	background-position: right top;
 	overflow-x:hidden;
 }
@@ -114,12 +116,12 @@ a:hover{
 	font-size: 1.5em;
 }
 
-@media (max-width: 768px) {
-	#head1{font-size:2em;}
+@media (max-width: 767px) {
+	#head1{font-size:1.75em;}
 	#head2{font-size: 1.5em;}
-	#kbd{font-size: 1.5em;}
+	#kbd{font-size: 1.25em;}
 	#accordion1{font-size: 1em;}
 	#accordion2{font-size: 1em;}
 	.subject{font-size: 1.25em;}
-	#quote{font-size: 1em;}
+	#quote{font-size: 0.85em;}
 }
