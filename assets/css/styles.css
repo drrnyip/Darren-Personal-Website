@@ -1,8 +1,9 @@
 #jumbo{
 	background-color: rgba(0,0,0,0);
-	background-image: url(../img/sketch14.png);
+	background-image: url(../img/sketch16.png);
 	background-position: right top;
 	border-bottom: 7px ridge #ececec;
+	background-size: cover;
 }
 
 #head1{
@@ -121,5 +122,4 @@ a:hover{
 	#accordion2{font-size: 1em;}
 	.subject{font-size: 1.25em;}
 	#quote{font-size: 1em;}
-
 }
