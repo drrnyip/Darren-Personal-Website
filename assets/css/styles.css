@@ -1,6 +1,6 @@
 #jumbo{
 	background-color: rgba(0,0,0,0);
-	background-image: url(../img/sketch15.png);
+	background-image: url(../img/sketch18.png);
 	background-position: right top;
 	border-bottom: 7px ridge #ececec;
 	background-size: 100% 100%;
@@ -20,18 +20,18 @@
 }
 
 .navbar{
-	background-color: #DCDCDC;
+	background-color: #1d2a32;
 }
 
 #navbarElements{
 	padding-bottom: 63px;
-	color: #2a3797;
+	color: #eec784;
 	padding-right: 7px;
 	
 }
 
 #navbarElements:hover{
-	color:#ee5f4f;
+	color:#8ce8ff;
 	
 }
 
@@ -95,8 +95,8 @@
 }
 
 body{
-	background-image: url("../img/watercolor15.jpg");
-	background-position: right top;
+	background-image: url("../img/starfield4.jpg");
+	background-position:top;
 	overflow-x:hidden;
 }
 
