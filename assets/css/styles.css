@@ -101,7 +101,7 @@ body{
 }
 
 #break{
-	padding:175px;
+	padding:200px;
 }
 
 a{
@@ -124,4 +124,9 @@ a:hover{
 	#accordion2{font-size: 1em;}
 	.subject{font-size: 1.25em;}
 	#quote{font-size: 0.85em;}
+	#jumbo{background-size: 165% 100%;}
+}
+
+@media (max-width: 350px) {
+	#jumbo{background-size: 185% 100%;}
 }
