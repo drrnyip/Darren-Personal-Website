@@ -126,6 +126,15 @@ a:hover{
 	#quote{font-size: 0.85em;}
 	#jumbo{background-size: 165% 100%;}
 	#navbarElements{padding-bottom: 50px;}
+	body{
+	width: 100%;
+	overflow-x: hidden;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 800px){
+	#jumbo{background-size: 185% 100%;}
+
 }
 
 @media (max-width: 544px) {
