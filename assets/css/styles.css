@@ -2,7 +2,7 @@
 	background-color: rgba(0,0,0,0);
 	background-image: url(../img/sketch18.png);
 	background-position: right top;
-	border-bottom: 7px ridge #ececec;
+	border-bottom: 7px ridge #eec784;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -24,7 +24,7 @@
 }
 
 #navbarElements{
-	padding-bottom: 100px;
+	padding-bottom: 75px;
 	color: #eec784;
 	padding-right: 7px;
 	
@@ -125,8 +125,9 @@ a:hover{
 	.subject{font-size: 1.25em;}
 	#quote{font-size: 0.85em;}
 	#jumbo{background-size: 165% 100%;}
+	#navbarElements{padding-bottom: 50px;}
 }
 
-@media (max-width: 350px) {
+@media (max-width: 544px) {
 	#jumbo{background-size: 185% 100%;}
 }
