@@ -17,29 +17,35 @@
 					<div class="row">
 						<!--Navbar contents-->
 						<!--MD-->
-						<div class="col-md-offset-1 col-md-2 col-xs-3">
+						<div class="col-md-offset-1 col-md-2 col-xs-2">
 							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="goGitHub()">
 							<span><i class="fa fa-github fa-3x hidden-xs" aria-hidden="true"></i></span>
 							<span><i class="fa fa-github fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
 							<strong class="hidden-xs">GitHub</strong></a>
 						</div>
-						<div class="col-md-2 col-xs-3">
+						<div class="col-md-2 col-xs-2">
 							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="goLinkedIn()">
 							<span><i class="fa fa-linkedin-square fa-3x hidden-xs" aria-hidden="true"></i></span>
 							<span><i class="fa fa-linkedin-square fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
 							<strong class="hidden-xs">LinkedIn</strong></a>
 						</div>
-						<div class="col-md-2 col-xs-3">
+						<div class="col-md-2 col-xs-2">
 							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="goFacebook()">
 							<span><i class="fa fa-facebook-official fa-3x hidden-xs" aria-hidden="true"></i></span>
 							<span><i class="fa fa-facebook-official fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
 							<strong class="hidden-xs">Facebook</strong></a>
 						</div>
-						<div class="col-md-2 col-xs-3">
+						<div class="col-md-2 col-xs-2">
 							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="mailTo()">
 							<span><i class="fa fa-envelope fa-3x hidden-xs" aria-hidden="true"></i></span>
 							<span><i class="fa fa-envelope fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
 							<strong class="hidden-xs">Email</strong></a>
+						</div>
+							<div class="col-md-2 col-xs-2">
+							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="resume()">
+							<span><i class="fa fa-file-pdf-o fa-3x hidden-xs" aria-hidden="true"></i></span>
+							<span><i class="fa fa-file-pdf-o fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
+							<strong class="hidden-xs">Resume</strong></a>
 						</div>
 					</div>
 				</div>
@@ -114,14 +120,17 @@
 				<p class="filling2">-> Volunteered for multiple stints to teach English and Mathematics in rural villages</p>
 			</div>
 		</div>
+
 	</div>
+
 	<span id="break"></span>
 	<!--End of accordion-->
 
-		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 		<script src="https://use.fontawesome.com/e6b98180e5.js"></script>
 		<script src="assets/js/base.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
 		<!--JQuery scripts & JavaScript scripts-->
 		<script>
 		$(document).ready(function(){
@@ -131,6 +140,7 @@
 				$(this).next('.accordion .filling').slideToggle();
 			});
 		});
+		
 		</script>
 </body>
 </html>

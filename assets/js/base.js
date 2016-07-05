@@ -29,3 +29,7 @@ window.open("https://github.com/drrnyip/ChatApp");
 function te4(){
 window.open("http://akashicrecordsusa.com/profamily2");
 }
+
+function resume(){
+window.open("assets/Resume-Yip.pdf");
+}

@@ -8,6 +8,10 @@
 	overflow: hidden;
 }
 
+.jumbotron{
+	background: transparent;
+}
+
 #head1{
 	color: #031424;
 	font-size:3em;
@@ -26,7 +30,6 @@
 #navbarElements{
 	padding-bottom: 75px;
 	color: #eec784;
-	padding-right: 7px;
 	
 }
 
@@ -143,4 +146,21 @@ a:hover{
 
 @media (max-width: 544px) {
 	#jumbo{background-size: 185% 100%;}
+}
+
+h1{
+	color:white;
+}
+
+p{
+	color: white;
+}
+
+
+#portfolio{
+	border: 1px solid #DCDCDC;
+}
+
+#carousel{
+	border-radius: 7%;
 }
