@@ -111,7 +111,10 @@ a{
 
 a:hover{
 	color:#DCDCDC;
+	cursor: pointer;
 }
+
+
 
 #quote{
 	font-size: 1.5em;
