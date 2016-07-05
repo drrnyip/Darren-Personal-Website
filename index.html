@@ -18,25 +18,25 @@
 						<!--Navbar contents-->
 						<!--MD-->
 						<div class="col-md-offset-1 col-md-2 col-xs-3">
-							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" href="https://github.com/drrnyip">
+							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="goGitHub()">
 							<span><i class="fa fa-github fa-3x hidden-xs" aria-hidden="true"></i></span>
 							<span><i class="fa fa-github fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
 							<strong class="hidden-xs">GitHub</strong></a>
 						</div>
 						<div class="col-md-2 col-xs-3">
-							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" href="https://www.linkedin.com/in/darren-yip-317b43ab?trk=nav_responsive_tab_profile">
+							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="goLinkedIn()">
 							<span><i class="fa fa-linkedin-square fa-3x hidden-xs" aria-hidden="true"></i></span>
 							<span><i class="fa fa-linkedin-square fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
 							<strong class="hidden-xs">LinkedIn</strong></a>
 						</div>
 						<div class="col-md-2 col-xs-3">
-							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" href="https://www.facebook.com/drrnyip">
+							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="goFacebook()">
 							<span><i class="fa fa-facebook-official fa-3x hidden-xs" aria-hidden="true"></i></span>
 							<span><i class="fa fa-facebook-official fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
 							<strong class="hidden-xs">Facebook</strong></a>
 						</div>
 						<div class="col-md-2 col-xs-3">
-							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" href="mailto:drrnyip@gmail.com">
+							<a id="navbarElements" class="navbar-brand hvr-pulse-grow" onClick="mailTo()">
 							<span><i class="fa fa-envelope fa-3x hidden-xs" aria-hidden="true"></i></span>
 							<span><i class="fa fa-envelope fa-2x hidden-md hidden-lg hidden-sm hidden-xl" aria-hidden="true"></i></span>
 							<strong class="hidden-xs">Email</strong></a>
@@ -121,7 +121,7 @@
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
 		<script src="https://use.fontawesome.com/e6b98180e5.js"></script>
-		<!--JQuery scripts-->
+		<!--JQuery scripts & JavaScript scripts-->
 		<script>
 		$(document).ready(function(){
 			$('.accordion .filling').slideUp();
@@ -130,6 +130,23 @@
 				$(this).next('.accordion .filling').slideToggle();
 			});
 		});
+
+		function goGitHub(){
+		window.open("http://www.github.com/drrnyip");
+		}
+		
+		function goLinkedIn(){
+		window.open("https://www.linkedin.com/in/darren-yip-317b43ab?trk=nav_responsive_tab_profile");
+		}
+		
+		function goFacebook(){
+		window.open("https://www.facebook.com/drrnyip");
+		}
+		
+		function mailTo(){
+		window.location.href = "mailto:drrnyip@gmail.com";
+		}
+		
 
 		</script>
 </body>
