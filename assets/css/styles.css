@@ -102,6 +102,7 @@ body{
 	background-image: url("../img/starfield4.jpg");
 	background-position:top;
 	overflow-x:hidden;
+
 }
 
 #break{
@@ -148,6 +149,9 @@ a:hover{
 	#jumbo{background-size: 185% 100%;}
 }
 
+@media (min-width: 1000px){
+	#break{ padding: 500px;}
+}
 h1{
 	color:white;
 }
